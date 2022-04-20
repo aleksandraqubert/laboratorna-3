@@ -6,8 +6,8 @@
            Laboratorna3
         </title>
         <style>
-    .cheese{
-        font-size:large;
+    ul#Quarter li{
+        display:inline-block ;
     }
       
             </style>
@@ -34,7 +34,7 @@
                 Name
             </p>
         </td>
-        <td>
+        <td colspan="2">
                 <form id="feedback" >
                     <input type="name" name="name" required placeholder="Alexandra"/>
 
@@ -46,7 +46,7 @@
            <td > 
           Pizza Toping
           </td>
-          <td > 
+          <td colspan="2"> 
             <ul class="spisoc">
                 <li>Supreme</li>
                 <li>Vegetarian</li>
@@ -59,7 +59,7 @@
             <td > 
          Optional Extras
            </td>
-           <td > 
+           <td colspan="2" > 
              <select name="sous">
                  <option >Tomato</option>
                  <option >Chilly</option>
@@ -70,20 +70,19 @@
          </tr>
 
          <tr >
-             <td>
-Optional Extras
+            <td > 
+         Optional Extras
+           </td>
+           <td colspan="2" > 
+             <ul id="Quarter" type="square" >
+                 <li >Extra Cheese</li>
+                 <li >Glutten Free Base</li>
+             </ul>
+                </td>
+            
              </td>
-           <td>
-               <lable for="Cheese">
-                <input type="button">
-                Extra Cheese
-               </lable>
-               <lable for="Base">
-                <input type="button">
-                Glutten Free Base
-               </lable>
-           </td> 
          </tr>
+         
 
          <tr >
              <td colspan="3" >
