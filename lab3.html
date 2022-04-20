@@ -6,7 +6,8 @@
            Laboratorna3
         </title>
         <style>
-    ul#Quarter li{
+   
+    ul#First {
         display:inline-block ;
     }
       
@@ -45,12 +46,17 @@
            <td > 
           Pizza Toping
           </td>
-          <td colspan="2"> 
-            <ul class="spisoc">
-                <li>Supreme</li>
-                <li>Vegetarian</li>
-                <li>Hawaiian</li>
-            </ul>
+          <td colspan="2" > 
+          
+              <input type="radio" id="supreme" name="radio" >
+                <label for="supreme">Supreme</label><br>
+                <input type="radio" id="veg" name="radio" >
+                <label for="veg">Vegetarian</label><br>
+                <input type="radio" id="hawai" name="radio" >
+                <label for="hawai">Hawaiian</label>
+         
+           
+           
             </td>
         </tr>
     
@@ -73,10 +79,11 @@
          Optional Extras
            </td>
            <td colspan="2" > 
-             <ul id="Quarter" type="square" >
-                 <li >Extra Cheese</li>
-                 <li >Glutten Free Base</li>
-             </ul>
+                     <input type="checkbox" id="cheese" name="cheese" >
+                     <label>Extra Cheese</label>
+                     <input type="checkbox" id="base" name="base" >
+                     <label>Glutten Free Base</label>
+            
                 </td>
          </tr>
          
